@@ -1,6 +1,7 @@
 # Sample App "For Loop"
 for countdown in 5, 4, 3, 2, 1, "hey!":
     print(countdown)
+
 # Lists
 spells = [
     "Riddikulus!",
@@ -10,7 +11,7 @@ spells = [
     "Nox!",
     "Lumos!",
     ]
-print(spells[3])
+print(spells[1])
 
 # Python has a built-in interactive interpreter
 # Python Data are objects
@@ -34,32 +35,35 @@ print(spells[3])
 # A traceback is a record of where the interpreter ran into trouble
 # when trying to execute your code.
 
+name = "naren"
+
 # How to find list of keywords?
 help ("keywords")
 # = to assign a value to a variable.
-x = 12
+x = 5
 y = x + 12
 print(y)
 
-a = 12
-b = 2
+a = 4                # Literals
+b = 4
 c = "this is a text"
 if a == b:
-    print(a)
+    print("Reggie is on Vacation!")
 else:
-    print("They are not equal")
+    print("Reggie does not go on vacation")
 
-print(type(a))
-print(type(c))
+a = 7
+print(a)
+b = a
+print(b)
 
 # In Python,especially when we get to mutable objects like lists. Assignment does not copy a value;
 # it just attaches a name to the object that contains the data.
 # The name is a reference to a thing rather than the thing itself.
 # Visualize a name as a tag with a string attached to the object box somewhere else in the computer’s memory
 
-message = "Please do your goals"
-print(message)
-message = " Jack Please do your goals on time"
+message = "Please do your goals Gurminder"
+message = "Gurminder Please do your goals on time and limit them to 5"
 print(message)
 
 # STRINGS
@@ -70,7 +74,11 @@ print(name.title())  # Title is a method. What is a method?
 print(name.upper())
 print(name.lower())
 
-naren = dave = mallesh = "What a long day"
-print(naren)
-print(dave)
-print(mallesh)
+a = 5
+
+a = b = c = "This"
+print(a)
+print(b)
+print(c)
+
+
